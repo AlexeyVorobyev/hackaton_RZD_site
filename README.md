@@ -1,2 +1,1 @@
-# React_template
-My template for React.js
+# Сайт для хакатона 14.07
