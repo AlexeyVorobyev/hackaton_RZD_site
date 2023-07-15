@@ -1,12 +1,10 @@
 let data = undefined
 
 const getData = (params) => {
-    //fetch
+    //fetch result
     console.log(params)
     data = [
-        {
-            result
-        }
+
     ]
     return data
 }

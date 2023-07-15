@@ -20,8 +20,8 @@ const Form = () => {
                 <Selects selectData={selectData}/>
                 <button className='form_button child' onClick={(event) => {
                     event.preventDefault();
-                    setRouteHook(true)
-                    getData(selectData)
+                    getData(selectData);
+                    setRouteHook(true);
                 }}>
                     <p className='form_buttonText'>НАЙТИ</p>
                 </button>
