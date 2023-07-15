@@ -23,16 +23,17 @@
             font-weight: 500;
             line-height: normal;
         }
-    }      
+    }
+    
+    .header_logo {
+        box-sizing: border-box;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
 }
 
-.div3,
-.div4,
-.div5,
-.div6,
-.div7 {
-  position: absolute;
-  top: 23px;
-  left: 110px;
-  font-weight: 500;
+.footer {
+    background-color: #464A53;
+    width: 100%;
+    padding:40px
 }

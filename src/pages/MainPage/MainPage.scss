@@ -1,0 +1,24 @@
+.MainPage_container {
+    width:100%;
+
+    .choosePath_container {
+        width:100%;
+        padding:350px 110px 400px 110px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    
+        .choosePath_img {
+            top:0;
+            left:0;
+            width:100%;
+            position: absolute;
+            height: 100%;
+            z-index: -5;
+        }
+    
+    }
+}
+
+

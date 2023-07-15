@@ -1,15 +1,18 @@
 {
   "name": "project",
   "version": "0.1.0",
+  "homepage": "/mainPage",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "*",
     "@testing-library/react": "*",
     "@testing-library/user-event": "*",
+    "chroma-js": "^2.4.2",
     "react": "*",
     "react-dom": "*",
     "react-router-dom": "^6.14.1",
     "react-scripts": "*",
+    "react-select": "^5.7.4",
     "sass": "*",
     "web-vitals": "*"
   },

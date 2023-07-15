@@ -1,0 +1,22 @@
+.child:nth-child(1) .filter__control {
+    border-radius: 15px 0px 0px 15px !important;    
+}
+
+.child:nth-child(2) .filter__control, .child:nth-child(3) .filter__control {
+    border-radius: 0 !important;
+}
+
+.filter {
+
+    &__control {
+        height: 100%;
+    }
+  
+    &__option {
+      background-color: white;
+  
+      &--is-focused {
+        background-color: lightblue;
+      }
+    }
+  }
