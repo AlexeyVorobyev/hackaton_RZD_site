@@ -1,18 +1,21 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { Homepage } from './pages/Homepage';
-import { About } from './pages/Aboutpage';
-import { Notfoundpage } from './pages/Notfoundpage';
+import { CabinetPage } from './pages/CabinetPage/CabinetPage';
+import { CabinetMainPanel} from './components/CabinetMainPanel/CabinetMainPanel'
 
-import { Layout } from './components/Layout/Layout'
+
+import { Notfoundpage } from './pages/NotFoundPage/Notfoundpage';
+
+import { Layout } from './components/Layout/Layout';
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Homepage />} />
-          <Route path="about" element={<About />} />
+          <Route path="cabinet" element={<CabinetPage />}>
+            <Route path="mainPanel" element={<CabinetMainPanel/>}></Route>
+          </Route>
           <Route path="*" element={<Notfoundpage />} />
         </Route>
       </Routes>
